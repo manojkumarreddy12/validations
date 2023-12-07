@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> SIMPLE INTEREST </title>
+        <link rel="stylesheet" href="si.css">
+        <script src="si.js"></script>
+    </head>
+    <body>
+        <form action="Servlet1" onsubmit="return si()" onreset="return erasedata()">
+        <table align="center">
+            <caption>SI APPLICATION</caption>
+            <tr>
+                <td>
+                    <label for="id1">
+                        Enter p value:
+                    </label>
+                </td>
+                <td>
+                    <input type="number" id="id1" name="p" placeholder="please enter a value">
+                </td>
+                <td>
+                    <span id="span1">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id2">
+                        Enter t value:
+                    </label>
+                </td>
+                <td>
+                    <input type="number" id="id2" name="t" placeholder="please enter a value">
+                </td>
+                <td>
+                    <span id="span2">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id3">
+                        Enter r value:
+                    </label>
+                </td>
+                <td>
+                    <input type="number"  id="id3" name="r" placeholder="please enter a value">
+                </td>
+                <td>
+                    <span id="span3">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="SI">
+                </td>
+                <td>
+                    <input type="reset" value="Earse">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>

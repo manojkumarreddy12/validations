@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> (a+b) square </title>
+        <link rel="stylesheet" href="square.css">
+        <script src="square.js"></script>
+    </head>
+    <body>
+        <form action="Servlet3" onsubmit="return square()" onreset="return erasedata()">
+        <table align="center">
+            <caption>A B Whole Square APPLICATION</caption>
+            <tr>
+                <td>
+                    <label for="id1" >
+                        Enter a value:
+                    </label>
+                </td>
+                <td>
+                    <input type="number" id="id1" name="a" placeholder=" please enter a value">
+                </td>
+                <td>
+                    <span id="span1">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id2">
+                        Enter b value:
+                    </label>
+                </td>
+                <td>
+                    <input type="number" id="id2" name="b" placeholder=" please enter a value">
+                </td>
+                <td>
+                    <span id="span1">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Sqaure">
+                </td>
+                <td>
+                    <input type="reset" value="Earse">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="div1"></div>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>

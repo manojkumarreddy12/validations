@@ -1,0 +1,19 @@
+table{
+    background-color: silver;
+    border: 3px solid yellow;
+}
+*{
+    padding: 5px;
+}
+label{
+    color: white;
+}
+button{
+    color: yellow;
+}
+#b1{
+    background-color: blue;
+}
+#b2{
+    background-color: green;
+}
